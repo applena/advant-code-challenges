@@ -21,3 +21,54 @@
 // Of these box IDs, four of them contain a letter which appears exactly twice, and three of them contain a letter which appears exactly three times. Multiplying these together produces a checksum of 4 * 3 = 12.
 
 // What is the checksum for your list of box IDs?
+
+
+let arr = ['revtoubfniyhzsgxdowjwkqglp', 'revtcgbfniyhzsvxdomjwkqmlp', 'cevtcubfniyhqsgxdoakwkqmlp', 'revtcubfniyhzsgxdtavwkqmep', 'reutcuboniyhzmgxdoajwkqmlp', 'revtcubfniyhzsgxxqajmkqmlp', 'rwvtcvbfniyhzsgxdozjwkqmlp', 'qevtcbbfniyhzsgxdoljwkqmlp', 'rnvtcmbfniyhzsuxdoajwkqmlp', 'revtcubfsiyhzsgxdaaewkqmlp', 'revtcubfpiyhesgxhoajwkqmlp', 'revtcubfnivhzsuxdoljwkqmlp', 'retpcubwniyhzsgxdoajwkqmlp', 'revrcubfniyhzsgxdyajhkqmlp', 'revtcbbfniyhzsixdoajwvqmlp', 'revtcubfniyhzsgxdoanmkqmpp', 'jevtoubfnuyhzsgxdoajwkqmlp', 'rpwtcubfniehzsgxdoajwkqmlp', 'revhcubfniyhnsgxdoajwkxmlp', 'revtcubfniyhzswxdodjwkqvlp', 'reotcubfciyhzsgxdnajwkqmlp', 'revtcubfniyhzsgxdbatwsqmlp', 'rlvbcubfniyhzssxdoajwkqmlp', 'rentcubfnyyhzsgxdozjwkqmlp', 'revtcuufniyhasgxdohjwkqmlp', 'jevtcubfniyhxsgxdoajwkqwlp', 'ravtcubfnryhzfgxdoajwkqmlp', 'reltcubfnvyhzsgxdoajwkumlp', 'revtrubfnschzsgxdoajwkqmlp', 'uevtcubanichzsgxdoajwkqmlp', 'revtcubfniyhzdpxdoajwwqmlp', 'revtcubfhiyhzsgxdoajgkqplp', 'revtcubfniyxzygxdoajwkqmld', 'revtcunfniyfzsgxdoajwkqwlp', 'reqtcubfniyhzsgxdoajwfqmlj', 'revtcubfniyhzagedaajwkqmlp', 'revthuefniyhzsgxroajwkqmlp', 'revtcrbfodyhzsgxdoajwkqmlp', 'revtcubfniyhxsgxdlajwuqmlp', 'revtrubfnirhzsgxdokjwkqmlp', 'revtiubfniyhzagudoajwkqmlp', 'jevtcubfniyhusgxsoajwkqmlp', 'reetcubfniyhzsgxdoajvmqmlp', 'pestcubfniyhzsgxdoajwkqglp', 'revtcubfniyhzsgxdoiowkqalp', 'revscubfniyhzsgxdoajwkoplp', 'revtcubfnoyhzsgxdlajwkymlp', 'rkvtcubfniyhzsgxdoajzkqhlp', 'revtuubfniyhzsgxdojjwkqglp', 'revtcubmniyhzsgydoajwkzmlp', 'revtcybfnijhzsgxvoajwkqmlp', 'rxftcubfnkyhzsgxdoajwkqmlp', 'gertcubfniyhzsgxjoajwkqmlp', 'revtcabfniygzdgxdoajwkqmlp', 'levgcubfniyhzsgxdoalwkqmlp', 'revtcubfniyhzslxdofjwkqxlp', 'revtcybwniyhzsgxdoajwkqmlx', 'devtcubpniyhzsgqdoajwkqmlp', 'pevtcjbfniyhzsbxdoajwkqmlp', 'revtcubfeiehzsgxdoafwkqmlp', 'revwcubfniyhzsgxdoawekqmlp', 'revtcubfniyussgxdoawwkqmlp', 'revtcuafnczhzsgxdoajwkqmlp', 'revtaubfniyhusgxdoajwkqilp', 'revtcubfnidhzxgxdoajwkqmlt', 'revtcubfniyhzsexdmajwnqmlp', 'revtcubfnhyhzsgxdwxjwkqmlp', 'revtalbfniyhzsgxdoajwbqmlp', 'revtcubfniyazsgxdoajwkqcvp', 'rcvtcubfniyhzwgxdoajwkqmsp', 'revthubfniyhzxgxdoalwkqmlp', 'revtcubfniyazsoxgoajwkqmlp', 'revtcubkriyhzsgtdoajwkqmlp', 'revtcubfniyhzsgxgeajwgqmlp', 'heftcubfniypzsgxdoajwkqmlp', 'revtclbfniyhzsgxdowjnkqmlp', 'revtcubfnifhzsgxdoamwkqmhp', 'revncubfniyhzsgxdoxjwiqmlp', 'reitcurfniyhzsgxdoajwkrmlp', 'revtfmbfniyhzsgxdoajwkqmbp', 'revtcubfniahzsgxdoajwkqhtp', 'rejtcubfhiyhzsgxdoajwkqmfp', 'revtcuxfqiyhzsgxdoajwkqmlh', 'revtcuzfniwhzsgxdoajwkqmcp', 'revtcubfniyhzsmxdotjwkqmlx', 'revtcubfniyhzzgxmoajwkqulp', 'revtcuaffiyhzsgxdoajwkqmlj', 'revtcxbfniyhzsaxdoajwkqflp', 'revtjubfniyhzcrxdoajwkqmlp', 'revtcunfniyhzsgxdfajwoqmlp', 'revtcubfpiytzswxdoajwkqmlp', 'revtcubfniyhzsgxdorjwiqmtp', 'oevtcubfniyhzsgidoajwkqmlt', 'revccubzniyhztgxdoajwkqmlp', 'reircubfniwhzsgxdoajwkqmlp', 'revtcubfniyhzsgxhyajwkqvlp', 'revtcubfnpyhzsgxdoajwkvblp', 'revtduvfniyhzsixdoajwkqmlp', 'revtcebfniyhzsgydpajwkqmlp', 'revtcubftiyhzsgxwkajwkqmlp', 'revtcdbfniyuzsgxdoajlkqmlp', 'revtcubfnvydjsgxdoajwkqmlp', 'cevtcupfniypzsgxdoajwkqmlp', 'revtcubfniyhzsgoeonjwkqmlp', 'revtcsbfniyhzsgxdoyjwdqmlp', 'revtcubfriyhzugxdoakwkqmlp', 'revtcadfniohzsgxdoajwkqmlp', 'revrcubfniyhzsguxoajwkqmlp', 'ruvtcubfniyhzsxxdoahwkqmlp', 'aevtcubfniyhzsgcdoajwkqdlp', 'revtcubgniyhzwgxdoajpkqmlp', 'revtcubfniyhzegxdoajwkumsp', 'rlvtcubzniyhzsgxdoajwkqzlp', 'revtfubfniyhzxgbdoajwkqmlp', 'revtcubfniyszssxdoajwkymlp', 'revtcubfniyhzsgxdoarskzmlp', 'rewtcubfniyhzsgxdoajwkpmlh', 'revtcubbniyhzsfxdxajwkqmlp', 'yeitcubfniyhzsgxdrajwkqmlp', 'revtcubfniyhzsrxnoajwkemlp', 'revtcuefnqyhzsgxdoajwkqmbp', 'revtcubfniyhzsuxdoajwdqnlp', 'revtcujfnifhzsgxdoaswkqmlp', 'revtcuyfniyhzsgxdoaswklmlp', 'reeacubfniyhzsgxdoajwkqmfp', 'revtcubvniyhzsgxdoauwkqmls', 'revtpubkniyhzsgxdoajvkqmlp', 'revtcubfnpyhzsgxdoavnkqmlp', 'revtcobfnvyhzsfxdoajwkqmlp', 'gevtcubfniyhzsgxcoajwkqmld', 'rivtcubfniyhzqgxdpajwkqmlp', 'rettgubfngyhzsgxdoajwkqmlp', 'revtcuhfccyhzsgxdoajwkqmlp', 'rertarbfniyhzsgxdoajwkqmlp', 'rhftcybfniyhzsgxdoajwkqmlp', 'revtcvjfniyhzsgxboajwkqmlp', 'reetcubfnikhzsgxdoajwkqmsp', 'revtwubfniyhusgxdoajwkqelp', 'revtcdbfniyyzsgxdwajwkqmlp', 'revtcurfniyhzsgxduajwkqmtp', 'revtcuafneyhzsgxduajwkqmlp', 'rpvtcubfziyhzsgxdoajwkqmep', 'mevtcubfniyhzssxdoaywkqmlp', 'reptcubfniypzsgsdoajwkqmlp', 'revtcubfniyhnsgxdoajwcqelp', 'revtcutfniyhzsdxdoajwkqmlr', 'rpvtcuafniyhzsgxqoajwkqmlp', 'revncubfniyhzsgxdoajwkqkpp', 'rertcabfniyhzsgxdoejwkqmlp', 'revockbfniymzsgxdoajwkqmlp', 'revtsubfniyczsgxdoajwkqplp', 'revrcubpniyhzbgxdoajwkqmlp', 'revrculfniyhzsgxdoajwkrmlp', 'revtlubfniyhzsgxdiajhkqmlp', 'ravtcubfniyhzsgxdoajwftmlp', 'revtcunfxiyhzssxdoajwkqmlp', 'revscubfniypzsgxroajwkqmlp', 'mevtzubfniyhysgxdoajwkqmlp', 'reitcubfniyuzogxdoajwkqmlp', 'revycubfniyhwsgxdoajwkqmlg', 'revtcubfnyyhzsgxdoajwkomqp', 'zevtcutfniyhzsgxcoajwkqmlp', 'revtwubfniylzsgxdjajwkqmlp', 'oevtcubfniyhzsgxdoaowkzmlp', 'revtcubfniyhzsgxdxajwwqclp', 'revtcuafniyhzsgxdlacwkqmlp', 'revtcubfniyhzsgxdqrjlkqmlp', 'revmcubfnvyhzsgxduajwkqmlp', 'rgvvcubfniyhzxgxdoajwkqmlp', 'revtcubfniyhzsgxdoakwiqmlz', 'reztcubfniyhzsgxddajwnqmlp', 'revtcrbfnayhzsgxdoajwxqmlp', 'revtcuboncyxzsgxdoajwkqmlp', 'revtczbfniybxsgxdoajwkqmlp', 'yevtcubfniyhcsdxdoajwkqmlp', 'reztcmbfniyhzsgxcoajwkqmlp', 'restcubfliyhzsbxdoajwkqmlp', 'restcubkniyhzsgxdomjwkqmlp', 'reokhubfniyhzsgxdoajwkqmlp', 'rejtiubfniyhzsnxdoajwkqmlp', 'revtcubfuiyjzsgxdoajykqmlp', 'revscubfniyhzsixdoajwkqhlp', 'revtjuzfniyhzsgxdoajwkqilp', 'revtcubfziyhzsgxdoajhgqmlp', 'revtcubiniyhzsgldoacwkqmlp', 'revtcubfngyhisgxdoajwkqmkp', 'ruvtcubfniyhzsgxloajwkqplp', 'rtvtcubfniqbzsgxdoajwkqmlp', 'revtcubfniyhzegxdffjwkqmlp', 'revtcumsniyhzsgxdoajwkqmsp', 'rmvtcubfnhyhzsgxsoajwkqmlp', 'revtcbbfniyhzsgxdoajwkqzgp', 'rebtcjufniyhzsgxdoajwkqmlp', 'rephcubfniyhzvgxdoajwkqmlp', 'revtcpbfniyxzsgxdoajwkqmls', 'revjcubfniyizsgxdoajwkqmcp', 'revtcuqfniyhzsgxdoavwkqmdp', 'rettcubfniyhzsgxdoojwkqmbp', 'rkvtcubfmuyhzsgxdoajwkqmlp', 'revtcubcniyhzngxdoajlkqmlp', 'revxcubfpiyfzsgxdoajwkqmlp', 'revtcubfniyhzsgkkoajwklmlp', 'revtcubfniyhzsbxdoajwqqslp', 'zecycubfniyhzsgxdoajwkqmlp', 'revtcubfniyhzsggaoajwksmlp', 'revtcubffiyhzspxdoajwkqmmp', 'ruvtcubfniyhzsgxdoajwkamlu', 'revtcubfnmyhzsgxjoajwuqmlp', 'revtcubfniyhisgxdoajwkqjgp', 'revthubfniyhzsgxdoajwkeolp', 'ryvtgubfniyhzsgidoajwkqmlp', 'reitiubfniyhzsgxdoajwkqmbp', 'rektcubfniyhzsfxdoajpkqmlp', 'revbcubfniykzsgxdoajwkqwlp', 'revzyubfniyhzkgxdoajwkqmlp', 'ravtcubfniyhzsgxdoajwkhmap', 'revtcubfnfyhzsgxdvpjwkqmlp', 'rhvtcnbfnibhzsgxdoajwkqmlp', 'revtctbfniywzsgxroajwkqmlp', 'revtcubfniyhzsfmdoabwkqmlp', 'sevtcubfniynzsgxpoajwkqmlp', 'revtcnbfniyhzzgxdoajwzqmlp', 'revtcoofniyhzsgxdoajwkqmrp', 'revtcubfaiynysgxdoajwkqmlp', 'revtlubfniyizsnxdoajwkqmlp', 'revtcubfnwyzzsgxdoajwkqmzp', 'revtqubfjiyhzsgxdoajwkrmlp', 'revtaubfniyhpsgxdoajwkqilp', 'revncuufniwhzsgxdoajwkqmlp', 'revtcubfngyhisgxdoauwkqmlp', 'revtcubynqyhzdgxdoajwkqmlp', 'revtcubfniykzsgxdoyjwkqmla', 'revttubfniytzsghdoajwkqmlp', 'rerzcujfniyhzsgxdoajwkqmlp', 'revtcubtniydzsgxdoajwkpmlp', 'revecubfniyhzsvxsoajwkqmlp', 'revtcuvfniyhzsgsdaajwkqmlp', 'revtcubfniyxzsgxdoajtkzmlp', 'revtcukfxiyhzsgxdofjwkqmlp', 'revtcubfnayhzugxdqajwkqmlp', 'revtcbbfniyizsgxdoajwkqmop', 'revtcubfnzyhzsgxdoajwoqmpp', 'reitcnbfniyqzsgxdoajwkqmlp', 'rektcubfniyhzsgxdgijwkqmlp', 'revtcubfniyhpsaxdoajdkqmlp', 'ckvtcubfniyhzsgxeoajwkqmlp', 'revtcubfniyhzsgxdhajzknmlp', 'revscubfniyhrsgxdoajwwqmlp', 'revtcubfilyhzsgxdpajwkqmlp', 'fevtcubyniyhzsgxdoajwkqmpp'];
+
+function checksum(arr) {
+  let twoCountTruth = false;
+  let threeCountTruth = false;
+  let twoCount = 0;
+  let threeCount = 0;
+  let count = 0;
+  //loop through the array
+  for(let i = 0; i < arr.length; i++){
+    console.log('BEGINNING THE OUTTER FOR LOOP');
+    twoCountTruth = false;
+    threeCountTruth = false;
+    //split char into an array
+    let charArr = arr[i].split('');
+    //loop through the char in each term
+      charArr.forEach(letter => {
+        count = 0;
+
+        for(let j = 0; j<charArr.length; j++){
+          if(letter === charArr[j]){
+            count++;
+          }
+        }
+
+        if (count === 2){
+          twoCountTruth = true;
+          console.log('twoCount = ', twoCountTruth);
+        }
+
+        if (count === 3){
+          threeCountTruth = true;
+          console.log('threeCount = ', threeCountTruth);
+        }
+      })
+
+      if (twoCountTruth){
+        twoCount++;
+        console.log('number of 2s = ', twoCount);
+      }
+
+      if (threeCountTruth) {
+        threeCount++;
+        console.log('number of 3s = ', threeCount)
+      }
+    console.log('ENDING THE OUTTER FOR LOOP')
+  }
+  return twoCount * threeCount;
+}
